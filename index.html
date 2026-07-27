@@ -29,8 +29,8 @@
     padding: 20px 0;
   }
   header .wrap { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-  .brand { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.01em; }
-  .brand span { color: var(--accent); }
+  .brand { display: flex; align-items: center; }
+  .logo { height: 52px; width: auto; display: block; }
   header a.phone { color: var(--accent-dark); text-decoration: none; font-weight: 600; }
   .hero { padding: 72px 0 56px; background: var(--card); border-bottom: 1px solid var(--line); }
   .hero h1 { font-size: 2.1rem; line-height: 1.25; letter-spacing: -0.02em; max-width: 640px; }
@@ -59,7 +59,7 @@
 
 <header>
   <div class="wrap">
-    <div class="brand">Infinity <span>Services</span></div>
+    <div class="brand"><img src="logo.svg" alt="Infinity Services" class="logo"></div>
     <a class="phone" href="tel:+17257806599">(725) 780-6599</a>
   </div>
 </header>
@@ -68,7 +68,7 @@
   <div class="wrap">
     <h1>Commercial beverage equipment service — installed, maintained, and repaired by people who know it inside out.</h1>
     <p>Infinity Services keeps espresso machines, coffee brewers, and fountain dispensing systems pouring for restaurants, hotels, casinos, and foodservice operators across Nevada, Utah, and California.</p>
-    <a class="cta" href="#contact">Request Service</a>
+    <a class="cta" href="https://forms.office.com/pages/responsepage.aspx?id=gRU2HrAERkePbkaiABjl8jepStqGx2pLuJGowSFiGPxUN1YyOFJIUFlQTUtCUkhRNjI5VUVXOENOTi4u" target="_blank" rel="noopener">Request Service</a>
   </div>
 </div>
 
@@ -109,6 +109,7 @@
     <div class="card">
       <p>Phone: <a href="tel:+17257806599">(725) 780-6599</a></p>
       <p>Email: <a href="mailto:kevinwest@infinityserviceco.com">kevinwest@infinityserviceco.com</a></p>
+      <p>Or <a href="https://forms.office.com/pages/responsepage.aspx?id=gRU2HrAERkePbkaiABjl8jepStqGx2pLuJGowSFiGPxUN1YyOFJIUFlQTUtCUkhRNjI5VUVXOENOTi4u" target="_blank" rel="noopener">submit a service request online</a> — it goes straight to our dispatch inbox.</p>
     </div>
   </div>
 </section>
